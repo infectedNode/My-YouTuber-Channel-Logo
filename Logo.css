@@ -84,6 +84,9 @@ h6 {
 
 /* Tab View */
 @media(max-width: 600px) {
+    section {
+        min-height: 600px;
+    }
     .logo { 
         width: 300px;
         height: 300px;
@@ -105,6 +108,9 @@ h6 {
 
 /* Mobile View */
 @media(max-width: 420px) {
+    section {
+        min-height: 420px;
+    }
     .logo { 
         width: 220px;
         height: 220px;
